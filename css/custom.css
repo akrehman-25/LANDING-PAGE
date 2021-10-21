@@ -1,0 +1,55 @@
+html, body{
+    background:url('../img/pic-1.jpg') center center no-repeat;
+/*    height: 100%;*/
+    background-size: cover;
+}
+#logo img{
+    background-image: url(../img/logo-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+        
+    
+}
+#text p{
+    color: #0c1b33;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3em;
+}
+#counter .countdown{
+    color:azure;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: 200;
+    margin-top: -20px 0 0;
+}
+#icons .fab{
+    color:white;
+    margin: 5px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2 s ease-in-out;
+}
+#icons .tw:hover{
+    color: #6cadde;
+    bottom: 5px;
+}
+#icons .fb:hover{
+    color: #3b5998;
+    bottom: 5px;
+}
+#icons .go:hover{
+    color: #ea4335;
+    bottom: 5px;
+}
+#icons .in:hover{
+    color: #517fa6;
+    bottom: 5px;
+}
+#signup .btn{
+    background-color: rgba(161,186,226,0.5);
+    color: white;
+}
+#signup .btn:hover{
+    background-color: rgba(37,165,82,1);
+}
